@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorraine KOUAM - Developpeuse WEB Full-Stack</title>
+  <meta name="description" content="Portfolio de Lorraine KOUAM - Développeuse Web Full-Stack - Etudiante en Alternance">
+  <link rel="shortcut icon" href="./img/favicon.ico?v=1" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/global.css">
+  <script src="./js/global.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- ceci est un commentaire -->
+
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Lorraine KOUAM
+      </div>
+      <nav class="navbar ">
+        <ul class="menu list-unstyled">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#services">Mon CV</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list-unstyled">
+          <li>
+            <a href="https://google.fr" target="_blank">
+              <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512">
+                <path fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://google.fr">
+              <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://google.fr">
+              <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab" data-icon="twitter"
+                class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://google.fr">
+              <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="hero__item left">
+          <span>Développeuse Web Full-Stack</span>
+          <h1 class="title">Hello, Je suis Lorraine KOUAM</h1>
+          <p>Etudiante en quatrième année à l'ESIEA spécialité Software Engeneering et en alternance chez Société Générale.</p>
+        </div>
+        <div class="hero__item right">
+          <div class="hero__avatar">
+            <img src="./img/Cartoonify.png" width="400" height="400" loading="lazy"
+              alt="Avatar Lorraine KOUAM - Développeuse web full-stack">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <img src="./img/profile.jpg" width="560" height="453" loading="lazy"
+            alt="Lorraine KOUAM - Développeuse web full-stack">
+        </div>
+        <div class="grid__item">
+          <h2 class="section-title">A propos</h2>
+          <h3>Qui suis-je</h3>
+          <p>Etudiante à l’Ecole Supérieure d'Informatique Electronique Automatique (ESIEA), je suis passionnée par l’Informatique. Amoureuse de l'apprentissage,prête pour des decouvertes, J’aime prendre des initiatives dans l’optique de créer des solutions informatiques
+            (permettant de resourdre un problème existant). Dotée des bases dans la mise en place des Systèmes d’Informations Décisionnels, j’aimerai prendre part à la réalisation et la mise en oeuvre des projets concrets (dans les domaines du developpement
+            informatique) dans le but de monter en compétence afin de devenir une experte dans le domaine.<br><br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mon CV</h2>
+        <img src="./img/cv.png" title="cv-lorraine" alt="cv julien dahy" loading="lazy" />
+      </div>
+    </div>
+    <div class="elementor-element elementor-element-de88fd7 elementor-widget elementor-widget-shortcode" data-id="de88fd7" data-element_type="widget" data-widget_type="shortcode.default">
+      <div class="elementor-widget-container">
+        <div class="elementor-shortcode"><div class=""><a href="./img/CV_KOUAM Lorraine.pdf" target="_self" class="emd_dl_red_darker" download>Télécharger CV</a></div><style type="text/css">
+          .emd_dl_red_darker {
+          -moz-box-shadow:inset 0px 1px 0px 0px #3a339e;
+          -webkit-box-shadow:inset 0px 1px 0px 0px #3a339e;
+          box-shadow:inset 0px 1px 0px 0px #3a339e;
+          background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3a339e), color-stop(1, #3a339e) );
+          background:-moz-linear-gradient( center top, #3a339e 5%, #3a339e 100% );
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+          background-color:#3a339e;
+          -webkit-border-top-left-radius:0px;
+          -moz-border-radius-topleft:0px;
+          border-top-left-radius:0px;
+          -webkit-border-top-right-radius:0px;
+          -moz-border-radius-topright:0px;
+          border-top-right-radius:0px;
+          -webkit-border-bottom-right-radius:0px;
+          -moz-border-radius-bottomright:0px;
+          border-bottom-right-radius:0px;
+          -webkit-border-bottom-left-radius:0px;
+          -moz-border-radius-bottomleft:0px;
+          border-bottom-left-radius:0px;
+          text-indent:0;
+          border:1px solid #3a339e;
+          display:inline-block;
+          color:#ffffff !important;
+          font-family:Georgia;
+          font-size:15px;
+          font-weight:bold;
+          font-style:normal;
+          height:41px;
+          line-height:41px;
+          width:153px;
+          text-decoration:none;
+          text-align:center;
+          text-shadow:1px 1px 0px #810e05;
+          }
+          .emd_dl_red_darker:hover {
+          background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3a339e), color-stop(1, #3a339e) );
+          background:-moz-linear-gradient( center top, #3a339e 5%, #3a339e 100% );
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+          background-color:#3a339e;
+          }.emd_dl_red_darker:active {
+          position:relative;
+          top:1px;
+          }
+        </style>
+      </div>
+    </div>
+  </div>
+
+  </section>
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mes compétences</h2>
+      </div>
+      <div class="grid">
+        <div class="grid__item">
+          <h3>Intégration</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="95">HTML5</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="95">CSS3</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="85">PHP</div>
+          </div>
+          <h3>Back-end</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="85">NODE.JS</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="80">JAVA</div>
+          </div>
+          <h3>Front-end</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="85">REACTJS</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="75">REDUX</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="65">JAVASCRIPT</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="50">TYPESCRIPT</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="50">BOOTSTRAP</div>
+          </div>
+          <h3>Databases</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="90">MYSQL</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="80">MONGODB</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="75">POSTGRE</div>
+          </div>
+          <h3>Outils</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="95">UBUNTU</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="70">WEBSTORM</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="50">NGINX</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+      <ul class="grid portfolio-filters list-unstyled">
+        <li class="grid__item">
+          <a href="#" class="active" data-filter="all">Tous les projets</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="web">Développement web</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="design">Système embarqué</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="app">Application</a>
+        </li>
+      </ul>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="https://picsum.photos/600/400?random=1" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">IHM de gestion des pipelines d'ingestion et de transformation de données</h3>
+              <p class="category">Développement Web Full-Stack</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-1">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-1">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">IHM de gestion des pipelines d'ingestion et de transformation de données</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022-2023</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                        Développement Web Full-Stack
+                      </p>
+                      </svg>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>Typescript</li>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Bootstrap</li>
+                      <li>Redux</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="design">
+            <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Application de gestion de tâches</h3>
+              <p class="category">Développement Web Full-Stack</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-2">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-2">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Application ToDo List</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Développement Web Full-Stack
+                    </p>
+                    
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>PHP</li>
+                      <li>WampServer</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="app">
+            <img src="https://picsum.photos/600/400?random=3" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Porte Automatique</h3>
+              <p class="category">Système embarqué</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-3">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-3">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Porte Automatique s'ouvrant par détection de présence et code pin</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Système embarqué
+                    </p>
+                    
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>C</li>
+                      <li>Kicad</li>
+                      <li>STMElectronics</li>
+                      <li>Carte microcontroleur stm32 NUCLEO L053R8</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="https://picsum.photos/600/400?random=4" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Réseau Social</h3>
+              <p class="category">Application</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-4">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-4">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Réseau Social</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2021</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Application
+                    </p>
+                    
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>Java</li>
+                      <li>XML</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="design">
+            <img src="https://picsum.photos/600/400?random=5" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Application mobile de gestion de budget</h3>
+              <p class="category">Application</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-5">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-5">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Application mobile de gestion de budget</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Application
+                    </p>
+                    
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>Android</li>
+                      <li>WampServer</li>
+                      <li>Figma</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+      </div>
+
+      <form action="https://formsubmit.co/adresse-mail" method="POST" class="form">
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_next" value="https://dgeo-dev.github.io/formation-youtube-html-cs-js/thanks.html">
+
+        <label for="firstname">
+          <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+        </label>
+        <label for="lastname">
+          <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <input type="submit" class="btn" value="Envoyer">
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <p>Lorraine KOUAM</p>
+        </div>
+        <div class="grid__item">
+          <ul class="socials list-unstyled">
+            <li>
+              <a href="https://google.fr" target="_blank">
+                <svg aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                  class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512">
+                  <path fill="currentColor"
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://google.fr">
+                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                  data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://google.fr">
+                <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab" data-icon="twitter"
+                  class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://google.fr">
+                <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                  class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__item">
+          <p>Copyright © 2023.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
